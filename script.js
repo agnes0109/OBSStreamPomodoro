@@ -94,7 +94,7 @@ function updateClock() {
 
   document.getElementById('clock').textContent = time;
 
-  const text = mode === 'pomodoro' ? 'STUDY TIME' : 'BREAK TIME';
+  const text = mode === 'pomodoro' ? '¡A estudiar!' : '¡Descanso!';
   document.title = `${time} - ${text}`;
   document.getElementById('text').textContent = text;
 
